@@ -5,7 +5,7 @@ body{
 }
 .left-heading-area h1{
    font-size: 60px;
-   border-left: 5px solid black;
+   border-left: 5px solid #ffa180;
    padding-left: 25px;
 }
 .flex-container{
@@ -28,4 +28,162 @@ body{
     color: white;
     padding: 10px 25px;
     border-radius: 5px;
+}
+
+/* mission area start */
+.mission-area h1{
+    text-align: center;
+    font-size: 60px;
+}
+.mission-box-part-1{
+    background-color: thistle;
+    border-radius: 25px;
+    width: 25%;
+    margin: 10px;
+    padding: 15px;
+}
+.mission-box-part-1 p{
+    text-align: justify ;
+}
+.mission-box-part-1 img{
+    width: 40%;
+}
+.mission-box-part-2{
+    background-color:bisque;
+    border-radius: 25px;
+    width: 25%;
+    margin: 10px;
+    padding: 15px;
+}
+.mission-box-part-2 p{
+    text-align: justify ;
+}
+.mission-box-part-2 img{
+    width: 40%;
+}
+.mission-box-part-3{
+    background-color:lightblue;
+    width: 25%;
+    margin: 10px;
+    border-radius: 25px;
+    padding: 15px;
+}
+.mission-box-part-3 p{
+    text-align: justify ;
+}
+.mission-box-part-3 img{
+    width: 40%;
+}
+
+/* develope area start */
+.develop-area{
+    margin-top: 150px;
+    background-image: url(images/shapes/bakc.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 50%;
+}
+.develop-img img{
+    max-width: 400px;
+}
+.develop-text{
+    max-width: 50%;
+    margin-left: 100px;
+}
+.develop-text h1{
+    font-size: 60px;
+}
+
+/* community area start */
+.community-area{
+    margin-top: 150px;
+    background-image: url(images/shapes/back2.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 25%;
+}
+.community-img img{
+    max-width: 400px;
+}
+.community-text{
+    max-width: 50%;
+    margin-right: 100px;
+}
+.community-text h1{
+    font-size: 60px;
+}
+
+/* contact area start */
+.contact-area h1{
+    text-align: center;
+    font-size: 60px;
+}
+.contact-area{
+    margin-top: 150px;
+    /* background-image: url(images/shapes/shape-4.png); */
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: 50%;
+}
+.contact-img img{
+    max-width: 300px;
+    margin-right: 100px;
+}
+.contact-area-form{
+    margin-left: 10px;
+}
+.contact-area-form form{
+    width: 120%;
+    margin-right: 50px;
+    background-color:azure;
+    border-radius: 20px;
+}
+input[type=text], textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+}
+input[type=email]{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+legend {
+    background-color:blanchedalmond ;
+    padding: 5px 20px;
+    border-radius: 20px;
+}
+form{
+    padding: 50px;
+} 
+fieldset{
+    border-radius: 15px;
+} 
+
+/* footer area start */
+.footer-area{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.footer-area{
+    background-color: black;
+    height: 150px;
+    margin-top: 50px;
+}
+.footer-area h2{
+    margin-top: 50px;
+    text-align: center;
+}
+.footer-area p{
+    text-align: center;
+}
+.footer-text{
+    color: white;
 }
