@@ -1,0 +1,31 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    /* font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif; */
+}
+.left-heading-area h1{
+   font-size: 60px;
+   border-left: 5px solid black;
+   padding-left: 25px;
+}
+.flex-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.left-heading-area{
+    max-width: 50%;
+}
+.color-heading{
+    color: tomato;
+}
+.right-heading-area img{
+    max-width: 450px;
+}
+.button-decorate{
+    background-color: #f44336;
+    text-decoration: none;
+    color: white;
+    padding: 10px 25px;
+    border-radius: 5px;
+}
